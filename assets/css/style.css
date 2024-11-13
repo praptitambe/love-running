@@ -57,31 +57,6 @@ header a {
     margin-bottom: 1em;
 }
 
-#reasons {
-    width: 90%;
-    margin: 20px auto;
-}
-
-#reasons h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 280%;
-}
-
-#benefits-physical>div,
-#benefits-mental>div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#benefits p {
-    padding: 0 20px;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -141,6 +116,49 @@ main {
 
 #cover-text > h2, #cover-text > h3{
     color: #ffff;
+}
+
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-cover-bg{
+    background:url('../images/reasons-image.webp') no-repeat top center / cover ;
+    height:90vw;
+    width:90vw;
+    margin-bottom:20px;
+    /* Makes the square image to circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benifits-image{
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 /* Footer */
